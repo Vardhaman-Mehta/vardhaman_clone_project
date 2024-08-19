@@ -1,0 +1,263 @@
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  
+  
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: auto;
+  }
+  .head{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    height: 80px;
+    width: auto;
+  }
+  
+  .gmail-img{
+    margin-right: -8px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #595959;
+  }
+  
+  
+
+  
+  .gmail-img:hover{
+    text-decoration:  underline;
+  }
+  
+  .lab-logo{
+    border: none;
+    margin-top: -4px;
+    cursor: pointer;
+    margin-right: 14px;
+    margin-left: 18px;
+    font-size: 10px;
+    padding: 1px ;
+    padding-top: 8px;
+    padding-right: 3px;
+    padding-left: 8px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+  
+  .lab-logo:hover{
+    background-color: #E1EBEE;
+  }
+  
+  /* label show starts  5 7 4 8 */
+  
+  #tooltip{
+     width: 200px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 5px;
+      padding: 5px;
+      position: absolute;
+      bottom: -190%; /* Position above the label */
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+  }
+  
+  
+  /*label show end */
+  
+  .gb_f{
+    border: none;
+    margin-top: -4px;
+    cursor: pointer;
+    margin-right: 1px;
+    margin-left: 0px;
+    font-size: 10px;
+    padding: 7px ;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-left: 7px;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+  }
+  
+  .gb_f:hover{
+    background-color: #E1EBEE;
+  }
+  
+  
+  
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-bottom: 28px;
+  }
+  
+  
+  @media (max-width: 978px){
+           img{
+      width: 150px;
+    }
+  }
+  
+  .search-container {
+     
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 45px;
+      width: 600px; /* Adjust width as needed */
+      border-radius: 40px;
+      border: 1px solid #ccc;
+      overflow: hidden; /* Ensure button aligns correctly */
+      
+  }
+  
+  /* Styling for the search input */
+  .search-container input[type="text"] {
+      width: calc(100% - 60px); /* Adjust width based on button width */
+      padding: 10px;
+      border: none;
+      outline: none;
+      font-size: 14px;
+  }
+  
+  
+  .search-icon{
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+    color: black;
+    border: none;
+    border-top-left-radius: 40px;
+    border-end-start-radius: 40px;
+  }
+  
+  .search-container:hover{
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 5px;
+  }
+  
+  @media (max-width: 978px){
+    .search-container{
+      width: 320px;
+    }
+  }
+  
+  .serach-works{
+    
+    height: 50px;
+    width: 400px;
+    text-align: start;
+    border: none;
+  }
+  
+  .mic-items{
+    display: flex;
+    flex-direction: row;
+   
+  }
+  
+  .goxjub{
+    height: 24px;
+    width: 24px;
+    margin-right: 15px;
+     cursor: pointer;
+  }
+  
+  .Gdd5U{
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+     cursor: pointer;
+  }
+  
+  .gNO89b{
+    margin-top: 30px;
+    height: 39px;
+    width: 125px;
+    border: none;
+    background-color: #F5F7F7;
+    border-radius: 6px;
+     cursor: pointer;
+  }
+  
+  .RNmpXc{
+    margin: 7px;
+    margin-top: 30px;
+    height: 39px;
+     width: 137px;
+    border: none;
+     background-color: #F5F7F7;
+     border-radius: 6px;
+      cursor: pointer;
+  }
+  
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items : center;
+  }
+  
+  
+  
+  .material-symbols-outlined{
+     margin-right: 15px;  
+    color: #595959;
+    border: none;
+    font-size: 10px;
+    padding: 8px 8px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .material-symbols-outlined:hover{
+    background-color: #E1EBEE;
+  }
+  
+  
+  
+  
+  .profile-img{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin-right: 8px;
+    margin-bottom: 1px;
+    padding: 10px 10px;
+  }
+  
+  .profile-img:hover{
+    
+    background-color: #E1EBEE;
+    
+  }
+  
+  .languages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #words{
+    margin-left: 5px;
+    margin-right: 8px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
